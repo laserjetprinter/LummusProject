@@ -23,6 +23,7 @@ curMODE = 'N/A'
 iteration = 0
 count = 0
 
+#Would be while True: for actual application...has a limit for testing purposes
 while count<10:
 
     #############################################
@@ -50,7 +51,7 @@ while count<10:
         iteration += 1
 
     #############################################
-    # Create a data frame
+    # Create a data frame and write to CSV file
     #############################################
     guiData = ({'':col1,'EstimatedFR':frCol,'EstimatedTemp':tempCol,'EstimatedMFD':mfdCol,
     'EstimatedBPH':bphCol,'EstimatedSCFR':scfrCol,'Mode':modeCol,'FR History':frHist,
@@ -78,12 +79,12 @@ while count<10:
     scfrHist.insert(0,str(prevSCFR) + ' kg/s')
     modeHist.insert(0,curMODE)
 
-    #Update current values (default to incrementing by 1 for testing)
+    #Update current values (default to incrementing by 1,2,3,4, and 5 for testing...will be reading from sensors for actual application)
     curEFR+=1
-    curTEMP+=1
-    curMFD+=1
-    curBPH+=1
-    curSCFR+=1
+    curTEMP+=2
+    curMFD+=3
+    curBPH+=4
+    curSCFR+=5
     curMODE='Automatic'
 
     #############################################
