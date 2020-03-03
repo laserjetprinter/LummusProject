@@ -1,0 +1,11 @@
+,,EstimatedFR,EstimatedTemp,EstimatedMFD,EstimatedBPH,EstimatedSCFR,Mode,FR History,Temp History,MFD History,BPH History,SCFR History,Mode History
+0,Current Value,33 kg/s,18 °F,27 mA,88,45 kg/s,Automatic,6 kg/s,16 °F,24 mA,32,40 kg/s,Automatic
+1,Previous Value,8 kg/s,16 °F,24 mA,32,40 kg/s,,7 kg/s,14 °F,21 mA,28,35 kg/s,Automatic
+2,,,,,,,,6 kg/s,12 °F,4 mA,24,30 kg/s,Automatic
+3,,,,,,,,5 kg/s,10 °F,15 mA,20,25 kg/s,Automatic
+4,,,,,,,,4 kg/s,8 °F,12 mA,16,20 kg/s,Automatic
+5,,,,,,,,3 kg/s,6 °F,9 mA,12,15 kg/s,Automatic
+6,,,,,,,,2 kg/s,4 °F,6 mA,8,10 kg/s,Automatic
+7,,,,,,,,1 kg/s,2 °F,3 mA,4,5 kg/s,Automatic
+8,,,,,,,,0 kg/s,0 °F,0 mA,0,0 kg/s,N/A
+9,,,,,,,,N/A,N/A,N/A,N/A,N/A,N/A

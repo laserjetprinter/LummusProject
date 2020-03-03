@@ -22,7 +22,7 @@ title.pack()
 def getData():
     print('In getData')
     
-    df = pd.read_csv('Desktop/Capstone/Test.csv')
+    df = pd.read_csv('Desktop/Capstone/Practice.csv')
 
     esfr = df.EstimatedFR
     curEFR.config(text=esfr[0])
